@@ -127,4 +127,60 @@ Just click the green 'Publish' button and the result will be viewable from the '
 You can easily return to the generated results from the main management page for the elections. Simply find the row and you'll see a blue button labelled 'View Results'. Click this to come back to the results (they won't be regenerated however, once the results are generated once they are saved for future use).
 \subsubsection{Anonymous Voting Logs}
 You can validate the results of the election from the results page by clicking on the green 'Load Round' button. It is strongly advised to only press one and read through it first as the log will be very long if many people have voted. It anonymises the voters and candidates but you can follow through easily.
+
+\newpage
+\section{Complaints}
+Last Updated: 11/02/2021
+
+To manage the complaints system you will require the permission 'View Complaints'. Anybody with this permission will be able to view any complaints that have been filed. To begin viewing the complaints you will need to login to the website and, if you have the correct permissions, you will see 'Admin Options' in the navigation bar. Hover over this to activate the drop-down and click 'Manage Complaints'.
+\subsection{Creating a Complaint}
+Any JCR member is able to create a complaint by clicking on 'Submit Complaint' in the footer of the website. They will be presented with a screen similar to the following:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{complaints/complaints_form.png}
+    \caption{The complaints form}
+    \label{fig:complaints_form}
+\end{figure}
+The name of the person complaining (the complainant) and date of the complaint will be pre-filled. The date is not editable by the user but the name is. There are protections in place to prevent users from filling complaints anonymously (in line with the complaints procedure set out by the JCR) and to prevent users from filling malicious complaints while posing as a different person.
+
+Every complaint must include:
+\begin{itemize}
+    \item Who the complaint is about
+    \item A brief subject of the complaint
+    \item The full details of the complaint
+    \item A signature
+    \item An acknowledgement that the complaint is true to the knowledge of the complainant
+\end{itemize}
+These are all covered by the website form and the user cannot file the complaint without filling in these details. 
+
+Once the complaint has been filed, the complainant will receive an email to their Durham University email address confirming the details of the complaint so they can be referenced if the complaint is escalated (and it provides a transparent record of what we have stored). The JCR Chair will also be notified by email that a new complaint has been filed. The details of the complaint will not be in the email. Instead a link is provided to the admin page to view the complaint details securely.
+
+\subsection{Viewing Complaints}
+In the 'Manage Complaints' section (which is only visible to those who have correct permissions) a screen similar to this will be shown:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{complaints/complaints_overview.png}
+    \caption{Complaints Overview}
+    \label{fig:complaints_overview}
+\end{figure}
+This provides a brief overview of each of the complaints that have been filed. The 'From' column will provide the name that they have provided in the form as well as the name that is associated with their user account. You should verify these are similar manually as the system does not check that these are similar. To find out more about a complaint click the blue 'View Complaint' button on the row corresponding to the complaint. 
+
+Once you have clicked on the details of a complaint you will be presented with a screen similar to this:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{complaints/complaints_single.png}
+    \caption{A single complaint}
+    \label{fig:complaints_single}
+\end{figure}
+All of the details of the complaint will be shown. This includes:
+\begin{itemize}
+    \item The name given by the complainant
+    \item The real name already associated with the user account of the complainant
+    \item The Durham University email address of the complainant
+    \item The signature of the complainant
+    \item Who the complaint is about 
+    \item The date and time when the complaint was submitted
+    \item The subject of the complaint
+    \item The full text relating to the complaint
+\end{itemize}
 \end{document}
